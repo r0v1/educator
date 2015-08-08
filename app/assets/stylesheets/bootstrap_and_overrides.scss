@@ -1,1 +1,49 @@
+@import "bootstrap-sprockets";
 @import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Orbitron:700|Quantico);
+
+$main-color: #BA091E;
+
+body {
+  /* width: 100%; */
+  height: 615px;
+  background-color: $main-color;
+  font-family: Quantico, sans-serif;
+  font-size: large;
+  /* text-shadow: black 0px 0px 2px; */
+  background: url("educator_bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /* background-size: cover;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center; */
+}
+
+h1 {
+  font-family: Orbitron, sans-serif;
+}
+
+h3 {
+  font-family: Orbitron, sans-serif;
+}
+
+.article-box {
+  width: 180px;
+  height: 180px;
+  margin: 3px;
+  border-radius: 20px;
+  float: left;
+  background-color: darken($main-color, 10%);
+  text-align: center;
+  overflow: auto;
+}
+
+.bottom-btn {
+  clear: both;
+  position: relative;
+  margin-top: 5%;
+  float:left;
+  margin-bottom: 1cm;
+}
