@@ -1,0 +1,8 @@
+<h1>Shots</h1>
+
+
+<%= form_tag '/shots/safe_spot' do %>
+    <%=label_tag 'Group size' %>
+    <%=text_field_tag 'a'%>
+    <div><%= submit_tag 'Save' %></div>
+<% end %>
